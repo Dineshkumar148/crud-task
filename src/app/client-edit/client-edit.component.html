@@ -1,0 +1,90 @@
+<div class="container-fluid p-3">
+    <div class="row">
+        <div class="col-12">
+           <h1 class="app-heading">Edit Client</h1>
+        </div>
+    </div>
+    <div class="row g-3 pb-3">
+        <!-- Client Name -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <label for="clientName" class="form-label mb-2 app-info-label">Client Name</label>
+            <input type="text" class="form-control app-info-data" id="clientName" value="Arun" required>
+        </div>
+        <!-- Client Email -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <label for="clientEmail" class="form-label mb-2 app-info-label">Client Email</label>
+            <input type="mail" class="form-control app-info-data" id="clientEmail" value="arun123@gmail.com" required>
+        </div>
+        <!-- Client Phone Number -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <label for="phoneNumber" class="form-label mb-2 app-info-label">Client Phone Number</label>
+            <input type="tel" class="form-control app-info-data" id="phoneNumber" value="6369052594" required>
+        </div>
+        <!-- Company Name -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <label for="companyName" class="form-label mb-2 app-info-label">Company Name</label>
+            <input type="text" class="form-control app-info-data" id="companyName" value="ohoh products pvt ltd" required>
+        </div>
+
+    </div>
+    <div class="row g-3 pb-3">
+        <!-- Upload Logo -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <label for="logo" class="form-label mb-2 app-info-label">Upload Logo</label>
+            <input type="file" class="form-control app-info-data" id="logo" required>
+        </div>
+        <!-- Industry -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <label for="industryType" class="form-label mb-2 app-info-label">Industry</label>
+            <input type="text" class="form-control" id="industryType" value="software development" required>
+        </div>
+        <!-- Contact Person -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <label for="contactPerson" class="form-label mb-2 app-info-label">Contact Person Name</label>
+            <input type="text" class="form-control app-info-data" id="contactPerson" value="bharani" required>
+        </div>
+        <!-- Contact Person Phone Number -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <label for="contactPersonPhone" class="form-label mb-2 app-info-label">Contact Person Number</label>
+            <input type="tel" class="form-control app-info-data" id="contactPersonPhone" value="9489714264" required>
+        </div>
+
+    </div>
+    <div class="row g-3 pb-3">
+        <!-- Company Address -->
+        <div class="col-12 col-md-6 col-lg-6">
+            <label for="companyAdress" class="form-label mb-2 app-info-label">Company Address</label>
+            <textarea value="656/B1,B2, First floor, Kanji - Tiruvannamalai Rd, Tiruvannamalai, Tamil Nadu 606604"
+                class="form-control app-info-data" id="companyAdress" rows="3" required></textarea>
+        </div>
+        <!-- Client Address -->
+        <div class="col-12 col-md-6 col-lg-6">
+            <div class="d-flex">
+                <label for="clientAdress" class="form-label mb-2 app-info-label">Client Address</label>
+                <div class="form-check ps-5">
+                    <input class="form-check-input" type="checkbox" value="" id="clientcheckbox">
+                    <label class="form-check-label" for="clientcheckbox" class="app-info-label">
+                        Same Adress
+                    </label>
+                </div>
+            </div>
+            <textarea value="656/B1,B2, First floor, Kanji - Tiruvannamalai Rd, Tiruvannamalai, Tamil Nadu 606604"
+                class="form-control app-info-data" id="clientAdress" rows="3" required></textarea>
+        </div>
+
+    </div>
+      <!-- Button -->
+      <div class="row mb-3">
+        <div class="col-12 d-flex justify-content-end">
+            <!-- Cancel Button -->
+            <div class="pe-3">
+                <button type="button" class="btn btn-outline-secondary" routerLink="/client-details">Cancel</button>
+            </div>
+            <!-- Create Button -->
+            <div>
+                <a class="btn btn-primary" routerLink="/products/create-customer" routerLinkActive="active"
+                    role="button">Save</a>
+            </div>
+        </div>
+    </div>
+</div>

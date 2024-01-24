@@ -1,0 +1,7 @@
+.app-client-logo{
+    background-color: #F5F5F5;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 25%; 
+}

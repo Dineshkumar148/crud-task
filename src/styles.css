@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+.app-heading {
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.active {
+    background-color: #FF5D25;
+    color: #FFFF;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.bi-arrow-left-short {
+    font-size: 28px;
+    color: #000;
+}
+
+.app-info-label{
+    font-weight: 500;
+    color: #7B7B7B;
+}
+
+.app-info-data{
+    color: #000;
+    font-weight: 500;
+}
