@@ -18,12 +18,36 @@
     color: #000;
 }
 
-.app-info-label{
+.app-info-label {
     font-weight: 500;
     color: #7B7B7B;
 }
 
-.app-info-data{
+.app-info-data {
     color: #000;
     font-weight: 500;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #FF5D25 !important;
+    border-color: #FFFF !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #0C0636 !important;
+}
+
+.table th {
+    background-color: #FF5D25;
+}
+
+.table{
+    thead>tr>th {
+        border-bottom: none;
+        border-color: white;
+        background-color: #FEF0EB;
+    }
 }
